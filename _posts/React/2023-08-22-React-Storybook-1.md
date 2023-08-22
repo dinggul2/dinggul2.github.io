@@ -32,9 +32,9 @@ last_modified_at: 2023-08-22
 
 #### 개발 환경:
 
-- #### Windows 10
-- #### Node 18.17.1
-- #### npm 9.8.1
+- **Windows 10**
+- **Node 18.17.1**
+- **npm 9.8.1**
 
 [CRA(Create React App)](https://create-react-app.dev/)란 리액트 개발 환경을 쉽게 구축해주는 도구입니다. CRA를 사용해 프로젝트를 생성하면 보일러플레이트(boilerplate)라 불리는 기본 파일 구조가 생성되고, 여기에는 웹 사이트를 로컬로 실행하기 위한 개발 서버 등이 포함되어 있습니다. 그럼 [npx](https://docs.npmjs.com/cli/v8/commands/npx) 명령어를 사용해 프로젝트를 새로 하나 생성해 보겠습니다. 저는 타입스크립트(Typescript)를 사용하기 위해 `--template typescript` 명령어를 추가하였습니다(Option).
 
