@@ -1,15 +1,14 @@
 ---
 title: '[Dev] Jekyll - minimal mistakes 시작하기'
-date: 2023-08-22T20:10:00-05:00
 categories:
   - Dev
 tags:
-  - minimal mistakes
-  - jekyll
-  - blog
-toc_label: 'Jekyll'
+  - [minimal mistakes, jekyll, blog]
+toc: true
 toc_sticky: true
-last_modified_at: 2023-08-22T20:10:00-05:00
+toc_label: 'Jekyll'
+date: 2023-08-22
+last_modified_at: 2023-08-22
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -18,7 +17,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-​`python
+​` python
 def print_hi(name):
   print("hello", name)
 print_hi('Tom')
