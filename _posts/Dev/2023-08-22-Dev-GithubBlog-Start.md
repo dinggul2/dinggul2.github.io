@@ -1,12 +1,13 @@
 ---
-title: "Hello World!"
-date: 2023-08-22 18:20:00 -0400
-categories: 
+title: '[Dev] Jekyll - minimal mistakes 시작하기'
+date: 2023-08-22T20:10:00-05:00
+categories:
+  - Dev
+tags:
+  - minimal mistakes
   - jekyll
-tags: 
-  - jekyll
-  - test
-toc_label: Jekyll
+  - blog
+toc_label: 'Jekyll'
 toc_sticky: true
 last_modified_at: 2023-08-22T20:10:00-05:00
 ---
@@ -17,14 +18,14 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-​```python
+​`python
 def print_hi(name):
   print("hello", name)
 print_hi('Tom')
-​```
+​`
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-gh]: https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
