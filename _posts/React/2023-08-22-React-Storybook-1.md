@@ -6,7 +6,7 @@ tags:
   - [react, cra, storybook, typescript, npm]
 toc: true
 toc_sticky: true
-toc_label: '0. 목차'
+toc_label: 'React & Storybook'
 date: 2023-08-22
 last_modified_at: 2023-08-22
 ---
@@ -16,9 +16,9 @@ last_modified_at: 2023-08-22
 > Storybook: Frontend workshop for UI development
 > (공식 문서 발췌)
 
-[스토리북은(Storybook)](https://storybook.js.org/)은 비즈니스 로직과 맥락(context)으로부터 분리된 UI 컴포넌트를 구축할 수 있도록 도와주는 개발 도구입니다. 스토리북은 UI 컴포넌트를 문서화하고, 테스트하고, 디자인 시스템을 개발하기 위한 기본 플랫폼으로써 사용할 수 있습니다.
+[**스토리북은(Storybook)**](https://storybook.js.org/)은 비즈니스 로직과 맥락(context)으로부터 분리된 UI 컴포넌트를 구축할 수 있도록 도와주는 개발 도구입니다. 스토리북은 UI 컴포넌트를 문서화하고, 테스트하고, 디자인 시스템을 개발하기 위한 기본 플랫폼으로써 사용할 수 있습니다.
 
-스토리북의 기본 구성 단위는 스토리(Story)이며 하나의 UI 컴포넌트는 하나 이상의 스토리를 가질 수 있습니다. 각 스토리는 UI 컴포넌트가 가질 수 있는 다양한 상태를 묘사합니다. 즉, UI 컴포넌트가 어떻게 사용될 수 있는지를 스토리를 통해 보여준다고 생각할 수 있습니다.
+스토리북의 기본 구성 단위는 **스토리(Story)**이며 하나의 UI 컴포넌트는 하나 이상의 스토리를 가질 수 있습니다. 각 스토리는 UI 컴포넌트가 가질 수 있는 다양한 상태를 묘사합니다. 즉, UI 컴포넌트가 어떻게 사용될 수 있는지를 스토리를 통해 보여준다고 생각할 수 있습니다.
 
 스토리북을 사용하지 않은 이전의 프로젝트에서는 UI 구성 요소의 렌더링을 확인하기 위해 먼저 전체 앱을 가동해야만 했습니다.
 
@@ -30,7 +30,7 @@ last_modified_at: 2023-08-22
 
 ## 실습 프로젝트 생성
 
-#### 개발 환경:
+### 개발 환경:
 
 - **Windows 10**
 - **Node 18.17.1**
@@ -53,9 +53,9 @@ React 프로젝트가 설치되었다면 src 폴더와 package.json이 존재하
 npx sb init
 ```
 
-> 중간에 스토리북에 대한 Eslint를 사용할 것인지 질문이 나옵니다. Eslint를 사용하겠다면 Y를 눌러 설치해 주세요.
+> 중간에 스토리북에 대한 **Eslint**를 사용할 것인지 질문이 나옵니다. **Eslint**를 사용하겠다면 Y를 눌러 설치해 주세요.
 
-Story 설치까지 완료되면 터미널에서 자동으로 Storybook 앱이 실행되며 브라우저에서 아래와 같은 화면을 만나실 수 있습니다.
+Story 설치까지 완료되면 터미널에서 자동으로 Storybook 앱이 실행되며 브라우저에서 아래 화면을 만나실 수 있습니다.
 
 ![Storybook init](/assets/images/React/Storybook%20init.PNG)
 
