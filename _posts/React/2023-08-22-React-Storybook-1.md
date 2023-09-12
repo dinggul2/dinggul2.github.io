@@ -1,9 +1,10 @@
 ---
-title: '[React] 1. Storybook으로 React Common UI 개발하기 - 소개 및 설치'
+published: true
+title: '[React] 1. Common UI 개발하기 - 소개 및 설치'
 categories:
   - React
 tags:
-  - [react, cra, storybook, typescript, npm]
+  - [react, cra, storybook]
 toc: true
 toc_sticky: true
 toc_label: 'React & Storybook'

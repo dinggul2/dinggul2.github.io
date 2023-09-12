@@ -1,17 +1,18 @@
 ---
-title: '[React] 2. Storybook으로 React Common UI 개발하기 - Input 편'
+published: true
+title: '[React] 2. Common UI 개발하기 - Input 편'
 categories:
   - React
 tags:
-  - [react, storybook, html, input, emotion, styled-component]
+  - [react, storybook, input, styled-component]
 toc: true
 toc_sticky: true
-toc_label: 'React & Storybook'
+toc_label: '목차'
 date: 2023-08-23
 last_modified_at: 2023-08-23
 ---
 
-## Input Component
+## Input component
 
 > [**input**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) element는 입력 유형과 속성의 조합이 매우 많기 때문에 모든 HTML 요소 중에서 가장 강력하고 복잡한 요소 중 하나입니다.<br>
 > (MDN 발췌)

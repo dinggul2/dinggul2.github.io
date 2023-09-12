@@ -3,7 +3,6 @@
    ========================================================================== */
 
 @media print {
-
   [hidden] {
     display: none;
   }
@@ -26,7 +25,7 @@
     background: #fff !important;
     color: #000 !important;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.7;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -176,14 +175,15 @@
 
   a[href^='http://']:after,
   a[href^='https://']:after,
-  a[href^='ftp://']:after {
-    content: " (" attr(href) ")";
+  a[href^='ftp://']:after
+  {
+    content: ' (' attr(href) ')';
     font-size: 80%;
   }
 
   abbr[title]:after,
   acronym[title]:after {
-    content: " (" attr(title) ")";
+    content: ' (' attr(title) ')';
   }
 
   #main {
@@ -228,7 +228,7 @@
     }
   }
 
-/*
+  /*
    Hide the following elements on print
    ========================================================================== */
 
