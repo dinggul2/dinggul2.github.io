@@ -24,9 +24,9 @@ last_modified_at: 2023-09-15
 
 ---
 
-# Version 1: without Context API
+## Version 1: without Context API
 
-## Interface 정의
+### Interface 정의
 
 제가 이전에 사용하던 버전은, `<CheckboxGroup>` 컴포넌트 안에서 `<Checkbox>` 컴포넌트를 불러다 미리 정의해놓았습니다. 그래서 인터페이스가 다소 장황할 수 있습니다.
 
@@ -51,7 +51,7 @@ interface Props {
 
 > React의 `useState()` 훅이 사용됩니다. 자세한 내용은 [관련 포스팅](https://react.dev/learn/state-a-components-memory){: target="\_blank"}을 참고해 주세요.
 
-## Component 구현
+### Component 구현
 
 사실 이전에는 이 코드보다 복잡했는데, Version 2를 쉽게 설명하기 위해서 손을 좀 봤습니다. 먼저 `<App>`에서 `<CheckboxGroup>` 컴포넌트를 어떻게 사용하는지 그 형태부터 살펴보겠습니다.
 
@@ -122,9 +122,9 @@ const CheckboxGroup = ({ items, selectedValues, groupDisabled = false, onChange 
 
 ---
 
-# Version 2: With Context API
+## Version 2: With Context API
 
-## Interface 정의
+### Interface 정의
 
 **Context API**를 사용하면서 더 이상 `items` 배열을 사용하지 않기 떄문에 `Item` 인터페이스가 사라졌습니다.
 
@@ -139,7 +139,7 @@ interface Props {
 
 `children`은 `<Checkbox>`나 기타 컴포넌트가 삽입될 위치를 정하기 위해 사용됩니다.
 
-## Component 구현
+### Component 구현
 
 `items` 배열이 사라지고, 대신 `<CheckboxGroup>` 컴포넌트의 `children`자리에 `<Checkbox>` 컴포넌트를 삽입하고 있습니다.
 
@@ -162,7 +162,7 @@ function App() {
 }
 ```
 
-### Context.Provider
+#### Context.Provider
 
 ```tsx
 import CheckboxContext from 'context/checkboxGroup'
