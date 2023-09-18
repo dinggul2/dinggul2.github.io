@@ -1,5 +1,8 @@
 # main links
 main:
+  - title: 'Storybook'
+    url: https://portfolio.dinggul.me/storybook/
+
   - title: 'Home'
     url: '/'
 

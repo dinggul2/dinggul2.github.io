@@ -49,11 +49,11 @@ interface Props {
 
 `selectedValues`는 선택한 체크박스의 `value`속성 값들을 담은 배열입니다.
 
-> React의 `useState()` 훅이 사용됩니다. 자세한 내용은 [관련 포스팅](https://react.dev/learn/state-a-components-memory){: target="\_blank"}을 참고해 주세요.
-
 ### Component 구현
 
 사실 이전에는 이 코드보다 복잡했는데, Version 2를 쉽게 설명하기 위해서 손을 좀 봤습니다. 먼저 `<App>`에서 `<CheckboxGroup>` 컴포넌트를 어떻게 사용하는지 그 형태부터 살펴보겠습니다.
+
+> React의 `useState()` 훅이 사용됩니다. 자세한 내용은 [관련 포스팅](https://react.dev/learn/state-a-components-memory){: target="\_blank"}을 참고해 주세요.
 
 _App.tsx_
 
